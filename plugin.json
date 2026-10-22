@@ -1,0 +1,11 @@
+{
+  "Group": "External authentication methods",
+  "FriendlyName": "Google sign-in (Nopwara)",
+  "SystemName": "ExternalAuth.Google",
+  "Version": "1.00",
+  "SupportedVersions": [ "5.00" ],
+  "Author": "Nopwara",
+  "DisplayOrder": 2,
+  "FileName": "Nop.Plugin.ExternalAuth.Google.dll",
+  "Description": "Sign in and register with a Google account (OAuth 2.0 / OpenID Connect), with a \"Continue with Google\" button styled for the Nopwara theme."
+}

@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <OutputPath>$(SolutionDir)\Presentation\Nop.Web\Plugins\ExternalAuth.Google</OutputPath>
     <OutDir>$(OutputPath)</OutDir>
     <!--the Google authentication handler comes from a NuGet package, so copy it to the plugin output-->
@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="10.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="9.0.9" />
   </ItemGroup>
 
   <!-- This target execute after "Build" target -->

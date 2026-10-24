@@ -3,7 +3,7 @@
   "FriendlyName": "Google sign-in (Nopwara)",
   "SystemName": "ExternalAuth.Google",
   "Version": "1.00",
-  "SupportedVersions": [ "5.00" ],
+  "SupportedVersions": [ "4.90" ],
   "Author": "Nopwara",
   "DisplayOrder": 2,
   "FileName": "Nop.Plugin.ExternalAuth.Google.dll",
